@@ -1,0 +1,25 @@
+{
+  "name": "geo-coords-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/geoCoords.js",
+  "scripts": {
+    "build": "babel src/geoCoords.js --out-file lib/geoCoords.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pasvistelik/geo-coords-functions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pasvistelik/geo-coords-functions/issues"
+  },
+  "homepage": "https://github.com/pasvistelik/geo-coords-functions#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
+  }
+}
