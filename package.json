@@ -1,6 +1,6 @@
 {
-  "name": "geo-coords-functions",
   "version": "1.0.0",
+  "name": "@grodno-city/geo-coords-functions",
   "description": "",
   "main": "lib/geoCoords.js",
   "scripts": {
