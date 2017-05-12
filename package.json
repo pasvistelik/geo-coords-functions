@@ -4,6 +4,7 @@
   "description": "",
   "main": "lib/geoCoords.js",
   "scripts": {
+    "prepublishOnly": "npm run build",
     "build": "babel src/geoCoords.js --out-file lib/geoCoords.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
