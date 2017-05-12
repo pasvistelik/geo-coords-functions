@@ -1,4 +1,7 @@
 ﻿class GeoCoords {
+    constructor() {
+      throw new Error('Use static distance() fn')
+    }
     static distance(a, b) {
         const earthRadius = 6372795;
         const pi180 = 0.017453;// 29251//Math.Round(Math.PI / 180, 5);
